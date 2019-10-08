@@ -23,8 +23,8 @@ ls -al ~/.ssh
 ssh-keygen -t rsa -C "your_full_name@xxxxx.com"
 
 步骤3. 将SSH Key添加到 GitLab 中  
-复制公钥： pbcopy < ~/.ssh/id_rsa.pub
-添加 Key: 打开GitLab, 登录，找到左边栏有一个的按钮，点击“ADD SSH KEY”按钮添加，将已经获得的SSH Key粘贴到“Key”，下边的标题可以随便取，点击加入项目，这样就保持了本地与服务器端的联系.  
+复制公钥： `pbcopy < ~/.ssh/id_rsa.pub`  
+添加 Key: 打开GitLab-->登录-->点击“ADD SSH KEY”-->粘贴SSH Key
 
 
  
