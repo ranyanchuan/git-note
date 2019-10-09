@@ -12,9 +12,9 @@ git push -u origin master .
 
 
 #### git 远程仓库管理
-1.查看当前的 remote:  git remote -v 
-2.删除指定remote: git remote remove <name>
-3.添加remote: git remote add origin git@ip:xxxgit
+1.查看当前的 remote:  git remote -v   
+2.删除指定remote: git remote remove <name>  
+3.添加remote: git remote add origin git@ip:xxxgit  
 
 
 #### Mac 下如何生成SSH Key 
