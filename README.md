@@ -34,5 +34,8 @@ ssh-keygen -t rsa -C "your_full_name@xxxxx.com"
 复制公钥： `pbcopy < ~/.ssh/id_rsa.pub`  
 添加 Key: 打开GitLab-->登录-->点击“ADD SSH KEY”-->粘贴SSH Key
 
-
+##### 强制覆盖远程分支
+git push origin master --force
  
+
+
