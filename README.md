@@ -10,6 +10,10 @@ git push -u origin master .
 git remote add origin git@github.com:ranyanchuan/git-note.git .  
 git push -u origin master .  
 
+#### 克隆带上分支
+git clone 指定分支：git clone -b 分支名称 项目地址
+假设分支名称为test，则：
+git clone -b test 项目地址
 
 #### git 远程仓库管理
 1.查看当前的 remote:  `git remote -v`    
